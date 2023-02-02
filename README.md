@@ -1,1 +1,2 @@
 # Proyecto_C-dula
+Este es un proyecto web que se despliega en escritorio que nos permite reportar la pérdida de una cédula dentro del territorio ecuatoriano, brindando una alternativa segura cuando se presentan estos eventos. 

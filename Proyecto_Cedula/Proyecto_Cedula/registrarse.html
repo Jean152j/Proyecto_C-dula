@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recupera Tu Cédula</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="icon" href="css/IMG/escudo.png">
+</head>
+
+<body>
+	<center><img src="css/IMG/escudo.png" width="5%"> </center>
+
+	<div class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+
+				</div>
+			</div>
+            <h3 class="text-center text-body ">Ingrese Sus Datos Para Registrarse</h3>
+			<div class="row">
+				<div class="col-lg-12">
+					<table cellpadding="10" cellspacing="12" align="left	">
+						<form id="registrarse-form" class="form" action="" method="post">
+                            
+							<div class="row justify-content-center">
+								<div class="col-lg-6 col-md-8">
+									<div class="card bg-dark border-0">
+										<div class="card-body px-lg-5 py-lg-5">
+
+											<form role="form">
+												<div class="form-group mb-3">
+													<label>Cédula</label>
+													<div class="input-group input-group-merge input-group-alternative">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ni ni-circle-08"></i></span>
+														</div>
+
+														<input class="form-control" placeholder="Ingrese Su Cédula" type="text" name="cedula" value="" required="" maxlength="10">
+
+													</div>
+												</div>
+
+												<div class="form-group mb-3">
+													<label>Nombre</label>
+													<div class="input-group input-group-merge input-group-alternative">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ni ni-circle-08"></i></span>
+														</div>
+
+														<input class="form-control" placeholder="Ingrese Su Nombre" type="text" name="nombre" value="" required="" maxlength="20">
+
+													</div>
+												</div>
+
+												<div class="form-group mb-3">
+													<label>Apellido</label>
+													<div class="input-group input-group-merge input-group-alternative">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ni ni-circle-08"></i></span>
+														</div>
+
+														<input class="form-control" placeholder="Ingrese Su Apellido" type="text" name="apellido" value="" required="" maxlength="20">
+
+													</div>
+												</div>
+
+												<div class="form-group mb-3">
+													<label>Género</label>
+													<div class="input-group input-group-merge input-group-alternative">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ni ni-circle-08"></i></span>
+														</div>
+														<input class="form-control" type="text" placeholder="Seleccione Su Género" readonly>
+
+														<select name="genero">
+															<option value="1">Masculino</option>
+															<option value="2">Femenino</option>
+														</select><br>
+
+													</div>
+												</div>
+
+												<div class="form-group mb-3">
+													<label>Contraseña</label>
+													<div class="input-group input-group-merge input-group-alternative">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
+														</div>
+														<input class="form-control" placeholder="Ingrese Su Contraseña" type="password" name="password" required="">
+													</div>
+												</div>
+
+												<div class="form-group mb-3">
+													<label>Provincia</label>
+													<div class="input-group input-group-merge input-group-alternative">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ni ni-circle-08"></i></span>
+														</div>
+														<input class="form-control" type="text" placeholder="Seleccione Su Provincia" readonly>
+														
+														<select name="genero">
+															<option value="1">Azuay</option>
+															<option value="2">Bolívar</option>
+                                                            <option value="3">Cañar</option>
+                                                            <option value="4">Carchi</option>
+                                                            <option value="5">Chimborazo</option>
+                                                            <option value="6">Cotopaxi</option>
+                                                            <option value="7">El Oro</option>
+                                                            <option value="8">Esmeraldas</option>
+                                                            <option value="9">Galápagos</option>
+                                                            <option value="10">Guayas</option>
+                                                            <option value="11">Imbabura</option>
+                                                            <option value="12">Loja</option>
+                                                            <option value="13">Los Rios</option>
+                                                            <option value="14">Manabí</option>
+                                                            <option value="15">Morona Santiago</option>
+                                                            <option value="16">Napo</option>
+                                                            <option value="17">Orellana</option>
+                                                            <option value="18">Pastaza</option>
+                                                            <option value="19">Pichincha</option>
+                                                            <option value="20">Santa Elena</option>
+
+														</select><br>
+													</div>
+
+												</div>
+                                                
+                                                <div class="form-group mb-3">
+													<label>Ciudad</label>
+													<div class="input-group input-group-merge input-group-alternative">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ni ni-circle-08"></i></span>
+														</div>
+														<input class="form-control" type="text" placeholder="Seleccione Su Ciudad" readonly>
+														
+														<select name="genero">
+															<option value="1">Cuenca</option>
+															<option value="2">Guaranda</option>
+                                                            <option value="3">Azogues</option>
+                                                            <option value="4">Tulcán</option>
+                                                            <option value="5">Riobamba</option>
+                                                            <option value="6">Latacunga</option>
+                                                            <option value="7">Machala</option>
+                                                            <option value="8">Esmeraldas</option>
+                                                            <option value="9">Guayaquil</option>
+                                                            <option value="10">Ibarra</option>
+                                                            <option value="11">Loja</option>
+                                                            <option value="12">Babahoyo</option>
+                                                            <option value="13">Portoviejo</option>
+                                                            <option value="14">Macas</option>
+                                                            <option value="15">Tena</option>
+                                                            <option value="16">Puyo</option>
+                                                            <option value="17">Quito</option>
+                                                            <option value="18">Ambato</option>
+                                                            <option value="19">Morona Santiago</option>
+														</select><br>
+													</div>
+
+												</div>
+
+												<div class="text-center">
+													<input class="btn btn-primary my-1" type="button" name="ingresar" value="Regristrarse"  onclick="window.location.href='index.html'" >
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+				</div>
+			</div>
+
+
+			</form>
+			</table>
+
+
+
+		</div>
+	</div>
+    <table align="center"><tr><td ><input class="btn btn-primary my-4" type="button" name="ingresar" value="Regresar A La Página Principal"  onclick="window.location.href='index.html'" > </td></tr></table>
+
+</body>
